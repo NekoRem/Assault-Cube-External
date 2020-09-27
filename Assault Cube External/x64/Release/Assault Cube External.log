@@ -1,0 +1,17 @@
+﻿  memory.cpp
+F:\GithubDesktopProjects\Assault Cube External\Assault Cube External\Assault-Cube-External\Assault Cube External\memory.h(51,1): warning C4312: 'type cast': conversion from 'DWORD' to 'LPCVOID' of greater size
+F:\GithubDesktopProjects\Assault Cube External\Assault Cube External\Assault-Cube-External\Assault Cube External\memory.h(51,1): message : This diagnostic occurred in the compiler generated function 't memory::read_memory(DWORD)'
+F:\GithubDesktopProjects\Assault Cube External\Assault Cube External\Assault-Cube-External\Assault Cube External\memory.h(57,1): warning C4312: 'type cast': conversion from 'DWORD' to 'LPVOID' of greater size
+F:\GithubDesktopProjects\Assault Cube External\Assault Cube External\Assault-Cube-External\Assault Cube External\memory.h(57,1): message : This diagnostic occurred in the compiler generated function 'void memory::write_memory(DWORD,t)'
+F:\GithubDesktopProjects\Assault Cube External\Assault Cube External\Assault-Cube-External\Assault Cube External\memory.cpp(28,8): error C2664: 'int strcmp(const char *,const char *)': cannot convert argument 1 from 'WCHAR [260]' to 'const char *'
+F:\GithubDesktopProjects\Assault Cube External\Assault Cube External\Assault-Cube-External\Assault Cube External\memory.cpp(28,19): message : Types pointed to are unrelated; conversion requires reinterpret_cast, C-style cast or function-style cast
+F:\Windows Kits\10\Include\10.0.19041.0\ucrt\string.h(100,13): message : see declaration of 'strcmp'
+F:\GithubDesktopProjects\Assault Cube External\Assault Cube External\Assault-Cube-External\Assault Cube External\memory.cpp(36,80): warning C4311: 'type cast': pointer truncation from 'HANDLE' to 'DWORD'
+F:\GithubDesktopProjects\Assault Cube External\Assault Cube External\Assault-Cube-External\Assault Cube External\memory.cpp(36,80): warning C4302: 'type cast': truncation from 'HANDLE' to 'DWORD'
+F:\GithubDesktopProjects\Assault Cube External\Assault Cube External\Assault-Cube-External\Assault Cube External\memory.cpp(58,8): error C2664: 'int strcmp(const char *,const char *)': cannot convert argument 1 from 'WCHAR [256]' to 'const char *'
+F:\GithubDesktopProjects\Assault Cube External\Assault Cube External\Assault-Cube-External\Assault Cube External\memory.cpp(58,19): message : Types pointed to are unrelated; conversion requires reinterpret_cast, C-style cast or function-style cast
+F:\Windows Kits\10\Include\10.0.19041.0\ucrt\string.h(100,13): message : see declaration of 'strcmp'
+F:\GithubDesktopProjects\Assault Cube External\Assault Cube External\Assault-Cube-External\Assault Cube External\memory.cpp(60,38): warning C4311: 'type cast': pointer truncation from 'BYTE *' to 'DWORD'
+F:\GithubDesktopProjects\Assault Cube External\Assault Cube External\Assault-Cube-External\Assault Cube External\memory.cpp(60,38): warning C4302: 'type cast': truncation from 'BYTE *' to 'DWORD'
+F:\GithubDesktopProjects\Assault Cube External\Assault Cube External\Assault-Cube-External\Assault Cube External\memory.cpp(87,59): warning C4312: 'type cast': conversion from 'DWORD' to 'LPCVOID' of greater size
+F:\GithubDesktopProjects\Assault Cube External\Assault Cube External\Assault-Cube-External\Assault Cube External\memory.cpp(94,75): warning C4312: '<function-style-cast>': conversion from 'DWORD' to 'LPCVOID' of greater size

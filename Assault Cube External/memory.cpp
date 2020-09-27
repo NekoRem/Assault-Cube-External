@@ -34,7 +34,7 @@ bool memory::attach(const char* process_name, DWORD access_rights)
 		CloseHandle(ss);
 	}
 	printf("process_handle(%s): 0x%x\n", process_name, (DWORD)this->process_handle);
-	if (this->process_handle) { return true; } else { return false; }	
+	if (this->process_handle) { return TRUE; } else { return FALSE; }	
 }
 
 bool memory::detach()
@@ -73,10 +73,10 @@ bool memory::compare_memory(const byte* data, const char* pattern)
 	for (; *pattern; *pattern != ' ' ? ++data : data, ++pattern)
 	{
 		if (*pattern == ' ' || *pattern == '?') continue;
-		if (*data != get_byte(pattern)) return false;
+		if (*data != get_byte(pattern)) return FALSE;
 		++pattern;
 	}
-	return true;
+	return TRUE;
 }
 
 DWORD memory::pattern_scan(module mod, const char* pattern, int offset, int extra, bool relative, bool subtract)
